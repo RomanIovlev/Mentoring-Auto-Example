@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="test1">
+
+        <groups>
+            <run>
+                <include name="part1"/>
+                <include name="part2"/>
+                <include name="part3"/>
+            </run>
+        </groups>
+
+<classes>
+    <class name="vladimir.tests.VladimirTest"/>
+
+</classes>
+    </test>
+
+    <test name="test2">
+
+    </test>
+</suite>
