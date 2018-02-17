@@ -1,6 +1,11 @@
 *.iml
 .idea/
 target/
-*.exe
 *.zip
+*.exe
 .logs/
+bin/
+obj/
+.vs/
+packages/
+test-output/
